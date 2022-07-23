@@ -65,7 +65,7 @@ app.get('/:custom_list_name',function(req,res){
                 List.save()
                 res.redirect('/'+custom_list_name)
             }else{
-                res.render('list',{list_title:found_list.name,items:found_list.items})
+                res.render('list',{list_title:"Hello!"+found_list.name,items:found_list.items})
             }
         }
     })
