@@ -27,7 +27,7 @@ const item3 = new item({
     name:'<--- Hit this to delete an item'
 })
 
-const default_items = [item1,item2,item3]
+const default_items = [item0,item1,item2,item3]
 
 const listSchema = {
     name:String,
