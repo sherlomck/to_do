@@ -4,12 +4,13 @@
   "description": "'1st Web application'",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Aprark",
   "license": "ISC",
   "engines": {
-    "node": "16.14.0"
+    "node": "16.14.0",
+    "npm": "8.13.2"
   },
   "dependencies": {
     "ejs": "^3.1.8",
