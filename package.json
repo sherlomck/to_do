@@ -4,7 +4,8 @@
   "description": "'1st Web application'",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "ejs-cli views/list.ejs -o build/index.html"
   },
   "author": "Aprark",
   "license": "ISC",
@@ -13,10 +14,12 @@
     "npm": "8.13.2"
   },
   "dependencies": {
-    "ejs": "^3.1.8",
+    "ejs": "^3.1.9",
+    "ejs-cli": "^2.2.3",
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "mongoose": "^6.4.4",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "react-scripts": "^5.0.1"
   }
 }
