@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node index.js",
-    "build": "ejs-cli views/list.ejs -o build/index.html"
+    "build": "npm i"
   },
   "author": "Aprark",
   "license": "ISC",
